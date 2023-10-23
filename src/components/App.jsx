@@ -18,7 +18,7 @@ import EmailVerification from './EmailVerification';
 import AdditionalInformation from './AdditionalInformation';
 // import Footer from './Footer';
 // import Login from './Login';
-// import Signup from './Signup';
+// import Signup from './Signup'
 
 
 function App() {
