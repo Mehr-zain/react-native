@@ -1,0 +1,70 @@
+/* styles/LandingPage.css */
+
+.landingPage_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+  }
+  
+  .landingPage_picture {
+   
+    background-image: url('../images/select_auth_method_screen_image.png');
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 90vh;
+   
+  }
+  
+  
+  .landingPage_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+  }
+  .landingPage_text{
+    width: 400px;
+  }
+  
+  .landingPage_button{
+    display: flex;
+    width:350px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 2px solid #333; 
+    color: #333; 
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+   
+    
+  }
+  .landingPage_button:hover {
+    background-color: #333; 
+    color: #fff;
+  }
+  .landingPage_icon{
+    margin-right: 5px;
+    font-size: 20px;
+  }
+  /* Style your options/buttons as needed */
+  @media screen and (max-width: 600px) {
+    .landingPage_container{
+        flex-direction: column;
+        
+    }
+    .landingPage_picture{
+        width: 100%;
+        height: 70vh;
+    }
+    .landingPage_content{
+        flex-direction: column;
+       text-align: center;
+        margin-bottom: 30px;
+    }
+  }
